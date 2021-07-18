@@ -1,0 +1,30 @@
+version: 1
+creator: xdebug 2.9.2 (PHP 7.4.3)
+cmd: /home/lucas/Documents/webgrind/index.php
+part: 1
+positions: line
+
+events: Time Memory
+
+fl=(1) php:internal
+fn=(1) php::realpath
+9 5 80
+
+fl=(1)
+fn=(2) php::is_file
+9 1 56
+
+fl=(2) /home/lucas/Documents/webgrind/index.php
+fn=(3) {main}
+1 15 -80
+cfl=(1)
+cfn=(1)
+calls=1 0 0
+9 5 80
+cfl=(1)
+cfn=(2)
+calls=1 0 0
+9 1 56
+
+summary: 103 356472
+

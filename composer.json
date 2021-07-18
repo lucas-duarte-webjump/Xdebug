@@ -1,15 +1,26 @@
 {
-    "autoload": {
-        "psr-4": {
-            "Alura\\Leilao\\": "src/"
-        }
-    },
-    "require": {
-        "php": "^7.3",
-        "ext-pdo": "*",
-        "ext-json": "*"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^8"
+  "name": "lucas/php-xdebug-projeto-inicial",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Alura\\Leilao\\": "src/"
     }
+  },
+  "authors": [
+    {
+      "name": "Lucas Duarte",
+      "email": "lucas.goes@webjump.com.br"
+    }
+  ],
+  "require": {
+    "php": "^7.3",
+    "ext-pdo": "*",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit"
+  }
 }
